@@ -15,3 +15,10 @@ pip install -r requirements.txt
 4 - run "python manage.py createsuperuser" command to create user name and password
 
 5 - run the application with this command "python migrate.py runserver" 
+
+# User interface
+
+<img width="785" alt="Screenshot 2025-01-17 at 5 20 59 PM" src="https://github.com/user-attachments/assets/a0d622ae-8b70-4050-b47b-bce759e9903c" />
+
+<img width="1149" alt="Screenshot 2025-01-17 at 5 21 33 PM" src="https://github.com/user-attachments/assets/1042a6ef-885c-4e8b-8a67-835c4acf0eee" />
+

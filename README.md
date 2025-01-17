@@ -2,6 +2,16 @@
 
 This is an web app whose backend is in Python, frontend in HTML, CSS and the databse is in SQLlite
 
+# Philipp Acsany.
+He's a fullstack developer and is currently in Berlin, Germany. 
+
+https://realpython.com/team/pacsany/
+
+# Just Python documentation of this code.
+
+https://realpython.com/django-diary-project-python/
+
+
 # Instructions
 1 - create a virtual environment using the command below
 python -m venv < the name of venv> 

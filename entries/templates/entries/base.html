@@ -11,8 +11,23 @@
 <body>
     <h1><a href="/">Dear diary …</a></h1>
 
-    {% block content %}{% endblock content %}
+    {% if messages %}
+    <ul class="messages">
+    {% for message in messages %}
+        <li class="message">
+            {{ message }}
+        </li>
+    {% endfor %}
+    </ul>
+    {% endif %}
 
+    {% block content %}{% endblock content %}
+    <hr>
+    <form method="post" action="{% url 'admin:logout' %}">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Logout" />
+    </form>
 </body>
 
 </html>

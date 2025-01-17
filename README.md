@@ -1,6 +1,6 @@
 # Django-Personal-Diary
 
-This is an web app whose backend is in Python, frontend in HTML, CSS and the databse is in SQLlite
+This is an web app whose backend is in Python/Django, frontend in HTML, CSS and the databse is in SQLlite
 
 # Philipp Acsany.
 He's a fullstack developer and is currently in Berlin, Germany. 
